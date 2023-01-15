@@ -25,6 +25,10 @@
   width: 100%;
   margin: 0 auto;
 }
+.nav-bar{
+  width: 1440px;
+  margin: 0 auto;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -60,6 +64,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.banner-part{
+  width: 1440px;
+  margin: 0 auto;
+}
 .banner-part .banner-text {
   padding-top: 100px;
   /* display: flex;
@@ -88,6 +96,10 @@
   padding-bottom: 45px;
 }
 /* ................banner part ends.................... */
+.quick-list{
+  width: 1440px;
+  margin: 0 auto;
+}
 .quick-part {
   display: flex;
   padding-top: 50px;
@@ -131,6 +143,10 @@
   padding-right: 60px;
 }
 /* ..........quick part ends............. */
+.featurse-part{
+  width: 1440px;
+  margin: 0 auto;
+}
 .feature-body {
   display: flex;
   justify-content: space-between;
@@ -216,6 +232,8 @@
 .some-fact{
   display: flex;
   flex-direction: column;
+  width: 1440px;
+  margin: 0 auto;
 }
 .fact-text{
   float: left;
@@ -249,6 +267,10 @@ padding-top: 24px;
 }
 
 /* .........................fact-part ends................ */
+.sponcers{
+  width: 1440px;
+  margin: 0 auto;
+}
 .sponcers .sponcers-text{
   display: flex;
   flex-direction: column;
@@ -343,38 +365,20 @@ padding-top: 24px;
   padding: 50px;
 
 }
-/* width part................................... */
-.nav-bar{
-  width: 1440px;
-  margin: 0 auto;
-}
-.banner-part{
-  width: 1440px;
-  margin: 0 auto;
-}
-.quick-list{
-  width: 1440px;
-  margin: 0 auto;
-}
-.featurse-part{
-  width: 1440px;
-  margin: 0 auto;
-}
-.some-fact{
-  width: 1440px;
-  margin: 0 auto;
-}
-.sponcers{
-  width: 1440px;
-  margin: 0 auto;
-}
-/* .footer part ends........................................... */
 
+/*  */
+/* .footer part ends........................................... */
+/* ...................responsive part start....................... */
 
 @media screen and (max-width: 576px) {
   .nav-bar {
     display: flex;
-    /* flex-direction: column; */
+  }
+  .nav-bar{
+    width: 100%;
+  }
+  .banner-part{
+    width: 100%;
   }
   .banner-part .banner-img img{
     height: 500px;
@@ -393,6 +397,9 @@ padding-top: 24px;
     display: flex;
     flex-direction: column-reverse;
   }
+  .quick-list{
+    width: 100%;
+  }
   .quick-part .quick-img img{
     padding-top: 30px;
   }
@@ -403,6 +410,9 @@ padding-top: 24px;
   .quick-part .quick-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .featurse-part{
+    width: 100%;
   }
   .feature-body {
     display: flex;
@@ -429,6 +439,9 @@ padding-top: 24px;
 .position p {
   padding-bottom: 10px;
 }
+.some-fact{
+  width: 100%;
+}
 .some-fact .fact-article{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -441,6 +454,9 @@ padding-top: 24px;
   padding-top: 50px;
   align-items: center;
 }
+.sponcers{
+  width: 100%;
+}
 .sponcers .sponcers-logo{
   display: grid;
  grid-template-columns: repeat(1, 1fr);
@@ -449,7 +465,6 @@ padding-top: 24px;
 .sponcers .sponcers-logo .logo{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   width: 80%;
   align-items: center;
   padding-top: 50px;
@@ -498,24 +513,6 @@ padding-top: 24px;
   width: 90%;
 }
 .footer-part{;
-  width: 100%;
-}
-.nav-bar{
-  width: 100%;
-}
-.banner-part{
-  width: 100%;
-}
-.quick-list{
-  width: 100%;
-}
-.featurse-part{
-  width: 100%;
-}
-.some-fact{
-  width: 100%;
-}
-.sponcers{
   width: 100%;
 }
 }
