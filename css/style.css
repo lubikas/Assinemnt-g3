@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.common-button button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #ff900e;
+  padding: 21px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+/* common css ends.......................... */
+.header-part {
+  background: #ffebd5;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.nav-bar .nav-logo h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+}
+.nav-bar .nav-list Ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-bar .nav-list ul li {
+  padding-right: 70px;
+}
+.nav-bar .nav-list ul li:last-child {
+  padding-right: 0;
+}
+.nav-bar .nav-list ul li a {
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #424242;
+}
+/* ......................navbar part ends.............. */
+.banner-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-part .banner-text {
+  padding-top: 100px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+}
+.banner-part .banner-text h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-part .banner-text p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+  padding-top: 32px;
+}
+.banner-part .banner-img img {
+  width: 100%;
+  height: 700px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+/* ................banner part ends.................... */
+.quick-part {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.quick-part .quick-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+.quick-part .quick-img img {
+  height: 342px;
+}
+.quick-part .quick-text {
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+.quick-part .quick-text h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: #727272;
+}
+.quick-part .quick-text h1 span {
+  color: #131313;
+}
+.quick-part .quick-text h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: #ff900e;
+}
+.quick-part .quick-text p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+  padding-right: 60px;
+}
+/* ..........quick part ends............. */
+.feature-body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 130px;
+}
+
+.feature-text {
+  padding-right: 150px;
+}
+.feature-body .feature-text > h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  padding-right: 70px;
+  padding-left: 20px;
+  margin-bottom: 24px;
+  border-left: 5px solid #ff900e;
+}
+.feature-body .feature-text h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+.feature-body .feature-text .article .article-part {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 20px;
+}
+.feature-body .feature-text .article .article-part h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+  padding-left: 0;
+}
+.feature-body .feature-text .article .article-part p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 26px;
+}
+.feature-body .feature-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.feature-body .feature-img img {
+  width: 100%;
+  height: 900px;
+}
+.position {
+  background: #ff900e;
+  position: absolute;
+  bottom: -45px;
+  left: -70px;
+  border-radius: 5px;
+}
+.position h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 500;
+  color: #ffff;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+.position p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffff;
+  text-align: center;
+  padding-bottom: 25px;
+}
+/* ............................feature part ends........................ */
+.some-fact{
+  display: flex;
+  flex-direction: column;
+}
+.fact-text{
+  float: left;
+}
+.fact-text h1{
+  font-family: "Work Sans", sans-serif;
+font-size: 45px;
+font-weight: 700;
+color: #131313;
+}
+.fact-text p{
+  font-family: "Work Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #131313;
+line-height: 26px;
+padding-top: 24px;
+}
+.some-fact .fact-article{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.some-fact .fact-article .article{
+  border: 1px solid #FF900E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 35px;
+  border-radius: 8px;
+}
+
+/* .........................fact-part ends................ */
+.sponcers .sponcers-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 180px;
+}
+
+.sponcers .sponcers-text h1{
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+}
+.sponcers .sponcers-text h2{
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #131313;
+  line-height: 26px;
+}
+.sponcers .sponcers-logo{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  width: 100%;
+}
+/* .......................sponcers part ends..................... */
+.contack{
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.contack-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.contack-info h1{
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+}
+.contack-info form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contack-info form label{
+  margin-top: 15px;
+}
+.contack-info form label #sms,#mail{
+  background: #ff900e;
+  border: none;
+  padding: 20px 0;
+  width: 200%;
+}
+.contack-info form label textarea{
+  margin-left: 68px;
+  background: #ff900e;
+  border: none;
+  padding: 20px 0;
+  width: 200%;
+}
+
+
+.button{
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #ff900e;
+  padding: 21px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 32px;
+  margin-left: -45px;
+}
+
+/* ................Contack part ends................................ */
+.footer-part{
+  margin: 0 auto;
+  background: #FFF4E7;
+  width: 1440px;
+  
+}
+.footer-part h1{
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #424242;
+  padding: 50px;
+
+}
+/* width part................................... */
+.nav-bar{
+  width: 1440px;
+  margin: 0 auto;
+}
+.banner-part{
+  width: 1440px;
+  margin: 0 auto;
+}
+.quick-list{
+  width: 1440px;
+  margin: 0 auto;
+}
+.featurse-part{
+  width: 1440px;
+  margin: 0 auto;
+}
+.some-fact{
+  width: 1440px;
+  margin: 0 auto;
+}
+.sponcers{
+  width: 1440px;
+  margin: 0 auto;
+}
+/* .footer part ends........................................... */
+
+
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .banner-part .banner-img img{
+    height: 500px;
+  }
+  .nav-bar .nav-logo{
+    float: left;
+  }
+  .nav-bar .nav-list Ul {
+    flex-direction: column;
+  }
+  .nav-bar .nav-list ul li {
+    padding-right: 0px;
+    text-align: right;
+  }
+  .quick-part {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .quick-part .quick-img img{
+    padding-top: 30px;
+  }
+  .quick-part .quick-img img {
+    width: 100%;
+  }
+
+  .quick-part .quick-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-body .feature-img img {
+    width: 100%;
+    height: 500px;
+  }
+  .feature-body .feature-text  {
+    text-align: center;
+  }
+  .feature-text{
+    padding-right: 0;
+  }
+.position {
+  bottom:-50px;
+  left: 70px;
+}
+.position h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.position p {
+  padding-bottom: 10px;
+}
+.some-fact .fact-article{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+}
+.fact-text h1{
+  padding-top: 100px;
+}
+.some-fact .fact-article{
+  padding-top: 50px;
+  align-items: center;
+}
+.sponcers .sponcers-logo{
+  display: grid;
+ grid-template-columns: repeat(1, 1fr);
+  padding-top: 0;
+}
+.sponcers .sponcers-logo .logo{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 80%;
+  align-items: center;
+  padding-top: 50px;
+}
+.sponcers .sponcers-text {
+  padding-top: 50px;
+}
+.sponcers .sponcers-text h2{
+  font-size: 20px;
+  line-height: 26px;
+  padding: 0 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-part h1{ 
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center ;
+  padding: 20px 0;
+}
+.service-part .service .row-2{
+  flex-direction: column;
+  color: #ff900e;
+}
+.contack-info form label .message,.mail{
+  background: #ff900e;
+  border: none;
+  padding: 20px 0;
+  width: 100%;
+}
+.button{
+  margin-top: 20px;
+}
+.contack-info form label #sms,#mail{
+  background: #ff900e;
+  border: none;
+  padding: 20px 0;
+  width:100%;
+}
+.contack-info form label textarea{
+  margin-left: 68px;
+  background: #ff900e;
+  border: none;
+  padding: 20px 0;
+  width: 90%;
+}
+.footer-part{;
+  width: 100%;
+}
+.nav-bar{
+  width: 100%;
+}
+.banner-part{
+  width: 100%;
+}
+.quick-list{
+  width: 100%;
+}
+.featurse-part{
+  width: 100%;
+}
+.some-fact{
+  width: 100%;
+}
+.sponcers{
+  width: 100%;
+}
+}
